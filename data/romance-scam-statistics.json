@@ -1,0 +1,39 @@
+{
+  "collecte": "2026-06-12",
+  "usage": "Page barometre arnaques-rencontres.fr - chaque stat verifiee a la source par agent",
+  "stats_cles": [
+    {"stat": "Pertes romance scam FBI 2025", "valeur": "929 287 469 $ / 23 159 plaintes (+38% pertes, +29% plaintes vs 2024)", "source": "FBI IC3 2025 Internet Crime Report (PDF officiel)", "url": "https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf", "fiabilite": "primaire"},
+    {"stat": "Seniors 60+ USA", "valeur": "584 M$ de pertes (63% du total romance), +50% vs 2024", "source": "FBI IC3 2025, section Elder Fraud", "url": "https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf", "fiabilite": "primaire"},
+    {"stat": "Romance scams avec IA identifiee", "valeur": "19 M$ (626 plaintes) + 5 M$ distress scams par clonage de voix", "source": "FBI IC3 2025, section AI", "url": "https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf", "fiabilite": "primaire"},
+    {"stat": "Nexus crypto", "valeur": "394,8 M$ (42% des pertes romance US) ; crypto = 1er mode de transaction (31%)", "source": "FBI IC3 2025", "url": "https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf", "fiabilite": "primaire"},
+    {"stat": "FTC 9 premiers mois 2025", "valeur": "1,16 Md$ / 55 604 signalements (+22%), perte mediane 2 218 $ (T3)", "source": "FTC via Global Dating Insights", "url": "https://www.globaldatinginsights.com/featured/romance-scams-outpace-other-fraud-types-at-1-16-billion/", "fiabilite": "secondaire"},
+    {"stat": "Reseaux sociaux", "valeur": "~60% des romance scams 2025 demarrent sur les reseaux sociaux", "source": "FTC communique 27/04/2026", "url": "https://www.ftc.gov/news-events/news/press-releases/2026/04/new-ftc-data-show-people-have-lost-billions-social-media-scams", "fiabilite": "primaire"},
+    {"stat": "FTC Sentinel romance scams", "valeur": "34 377 signalements 2024 (33 759 en 2023, 37 340 en 2022)", "source": "FTC CSN Data Book 2024 p.87", "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/csn-annual-data-book-2024.pdf", "fiabilite": "primaire"},
+    {"stat": "UK 2025", "valeur": "102 M£ / 10 784 signalements (+29%), moyenne 9 500 £, 55-74 ans = ~50% des montants", "source": "City of London Police 05/05/2026", "url": "https://www.cityoflondon.police.uk/news/city-of-london/news/2026/may/romance-fraud-costs-uk-victims-102-million-in-a-year-as-reports-surge-by-nearly-a-third/", "fiabilite": "primaire"},
+    {"stat": "France declarations police", "valeur": "~3 400 declarations validees 2024 (3 300 < 50 000 EUR de prejudice)", "source": "DGPN via franceinfo 06/07/2025", "url": "https://www.franceinfo.fr/faits-divers/temoignages-dettes-honte-dependance-affective-des-victimes-d-arnaque-sentimentale-en-ligne-racontent-le-piege-dans-lequel-elles-sont-tombees_7341795.html", "fiabilite": "secondaire"},
+    {"stat": "France Cybermalveillance", "valeur": "escroqueries sentimentales +6% en 2024, <1% des demandes ; 2025 : 500k victimes assistees toutes menaces (+20%)", "source": "Cybermalveillance.gouv.fr bilans 2024/2025", "url": "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/rapport-activite-2025", "fiabilite": "primaire"},
+    {"stat": "France escroqueries toutes categories", "valeur": "411 700 victimes 2023 (vs 250 900 en 2016), prejudice 2,3 -> 4,5 Md EUR, 59 500 plaintes THESEE", "source": "SSMSI via lafinancepourtous 18/07/2024", "url": "https://www.lafinancepourtous.com/2024/07/18/fraudes-aux-moyens-de-paiement-et-escroqueries-en-hausse-de-64-entre-2016-et-2023/", "fiabilite": "secondaire"},
+    {"stat": "Monde (GASA 2025)", "valeur": "57% des adultes exposes a une arnaque sur 12 mois, 23% ont perdu de l'argent, 69% stress", "source": "GASA Global State of Scams 2025", "url": "https://www.gasa.org/post/global-scams-on-the-rise-over-half-of-adults-worldwide-report-scam-encounters", "fiabilite": "primaire"}
+  ],
+  "tendances": [
+    {"t": "Paiement moyen crypto-arnaque 782 $ (2024) -> 2 764 $ (2025), +253% ; ~17 Md$ voles en crypto-arnaques 2025", "source": "Chainalysis 2026 Crypto Crime Report", "url": "https://www.chainalysis.com/blog/crypto-scams-2026/"},
+    {"t": "Arnaques outillees IA : 4,5x plus rentables (3,2 M$ vs 719 k$ par operation) ; usurpations +1400%", "source": "Chainalysis 2026", "url": "https://www.chainalysis.com/blog/crypto-scams-2026/"},
+    {"t": "Deepfakes/profils IA signales par FBI et police UK pour credibiliser les faux profils", "source": "FBI IC3 2025 + City of London Police"},
+    {"t": "Convergence romance scam -> faux investissement (pig butchering)", "source": "FBI IC3 2025 + CoLP"},
+    {"t": "Europol IOCTA 2025 : LLM/GenAI industrialisent l'ingenierie sociale ; pas de chiffres UE romance", "source": "Europol IOCTA 2025"}
+  ],
+  "trous": [
+    "Aucun prejudice financier national officiel France (DGPN ne publie que les volumes)",
+    "Pas de ventilation THESEE par type",
+    "FTC Data Spotlight romance plus mis a jour depuis 02/2023 ; chiffre annuel 2025 complet pas encore publie",
+    "Taux de non-declaration : aucune source primaire recente - ne pas utiliser le '1 sur 15-20'",
+    "Europol : pas de chiffres agreges UE"
+  ],
+  "angles_presse": [
+    "Le paradoxe francais : 3 400 plaintes vs 23 159 USA / 10 784 UK - la France est statistiquement aveugle",
+    "+38% en un an : 929 M$ au FBI, portes par l'IA (19 M$ avec lien IA identifie)",
+    "Les seniors paient l'addition : 63% des pertes US viennent des 60+",
+    "L'arnaque a l'amour est devenue une arnaque a l'investissement (crypto = 31% des transactions)",
+    "~60% des arnaques demarrent sur les reseaux sociaux, pas sur les sites de rencontre"
+  ]
+}
