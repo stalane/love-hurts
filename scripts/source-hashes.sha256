@@ -1,0 +1,26 @@
+# Known-good SHA-256 hashes for romance scam statistics source documents
+#
+# Format: <hash>  <file-id>  # <description or source label>
+#
+# Notes:
+# - PDFs (IC3, FTC CSN) produce stable hashes — a mismatch indicates the
+#   document was replaced or tampered with.
+# - HTML pages produce volatile hashes — content changes on every crawl due
+#   to ads, analytics, timestamps. A mismatch is expected; manual review
+#   confirms whether the actual article content changed.
+# - GONE (HTTP 403/404) sources need manual investigation — the URL may
+#   have moved, or the site may block automated requests.
+#
+# To add a new hash, run verify-sources.sh and follow its instructions.
+# To update a hash after a source has been verified as legitimately updated,
+# replace the hash value (do not delete the line — the file-id is the unique key).
+
+7d1fe453237654d2edcf89b0dd6b8b4b2e633fc1d5d5cfbd7dad5f7c1604a0a2  38fb6fdaa4283f363809fc415d10618c6b7fcb0d41af65dbb0ef309d540f61d2  # FBI IC3 2025 Report (PDF)
+9f876c702b006614bd083d9c749fd793d47338963021eb57c63ee5cb53512c33  cdf8ad35868ee5dea558fcc9115dc88d73ea9ef4147c0732a0a9ed1d203a806d  # Cybermalveillance.gouv.fr 2025 (HTML — may change on each crawl)
+3b13f56301e9296bb6410d2d3475b3dcd3e2c736360e34c7581762982aa92818  d30646934cf92bcb069aaab414ba49f0c699bc4f34a962dbd85a5bf6ae64279c  # Global Dating Insights (HTML — may change on each crawl)
+a789cb9097185039c733ecd0d47bf6c5911c57e6b13c8bca799b47f6f4782fcf  ebdd7a782ce37ed7b89e9ee28c68689979ed581e3076c8362a75e3b618257883  # GASA Global State of Scams 2025 (HTML)
+088da373a975eda8124d8583d482b984a6f049a65606a1f0c3baeae34ed6cf93  b98fcbd2f36542c21f98212aa0ee69a58d81ba7c580e8086ceac1ffdff70b719  # franceinfo article (HTML)
+aa2664e692eec28f257d780bb197d27184a4b6d0ed622f92ea504dee87d1b8d2  18e51ed65a41d9834e45b845ebba34455a6f5bdd2c90848e5b6032f89bcfdb82  # lafinancepourtous article (HTML)
+6a95d0445913b63c628a1cb4f45835a9c07b4c30074cf7618072fdc76e5ffe38  b61a3164fd67863cc19603b70d405f067cff76c2a678f633cc852c3372151fa4  # FTC press release social media scams (HTML)
+5973ae476c645cbf660de4f22a07097e09ee7cde899ba63d8b287cc1546de78c  4d93142c34a0445acc56895fba78171d384c978b93dede851cc6805bab349083  # FTC CSN Data Book 2024 (PDF)
+d0d2e14cd730f6bfd96f1491623e368f1f2085f7726e5c5cc08bce6546430013  989f1fd1b5a000aaa3c067a9ffc3ef05f0049146ff5fde217267e2a64947b948  # Chainalysis Crypto Crime 2026 (HTML — may change on each crawl)
