@@ -1,3 +1,5 @@
+![Romance scam awareness heart](heart.png)
+
 # Romance Scam Statistics
 
 Verified, source-attributed statistics on romance scams ("arnaques sentimentales"), compiled and fact-checked in June 2026 for the **Baromètre des arnaques sentimentales**. Every figure was verified against the primary report before inclusion; figures that could not be traced to a primary or clearly-attributed secondary source were excluded. See [`METHODOLOGY.md`](METHODOLOGY.md) for the full OSINT collection and verification methodology.
